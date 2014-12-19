@@ -17,6 +17,9 @@ var argv = optimist
   .alias('b', 'browser')
   .default('browser', 'phantom')
 
+  .describe('static', 'Allows you to serve static assets from the directory the test lives')
+  .alias('s', 'static')
+
   .describe('help', 'Print usage instructions')
   .alias('h', 'help')
 
